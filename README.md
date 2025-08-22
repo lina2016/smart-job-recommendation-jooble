@@ -1,4 +1,4 @@
-# Smart Job Recommender
+# Real-time Job Matching with Jooble API 
 
 A Flask-based web app that fetches jobs from Jooble and recommends them based on user input.
 
