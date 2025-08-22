@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block title %}Find Jobs{% endblock %}
+
+{% block content %}
+  <h2>Find Your Next Job</h2>
+  <form method="POST">
+    <input name="keywords" placeholder="e.g. Python, NLP" required>
+    <input name="location" placeholder="e.g. San Francisco">
+    <button type="submit">Search</button>
+  </form>
+
+{% endblock %}
