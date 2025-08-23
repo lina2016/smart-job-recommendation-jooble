@@ -9,7 +9,6 @@ A Flask-based web app that fetches jobs from Jooble and recommends them based on
 - Clean UI with Flask templates and responsive CSS
 
 ## Demo
-🎥 [Click to watch demo](static/demo.mp4)
 ![Screenshot](static/demo.png)
 
 
