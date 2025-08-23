@@ -5,8 +5,36 @@
 {% block content %}
   <h2>Find Your Next Job</h2>
   <form method="POST">
-    <input name="keywords" placeholder="e.g. Python, NLP" required>
-    <input name="location" placeholder="e.g. San Francisco">
+    <!-- Keywords Input with Suggestions -->
+    <input name="keywords" list="keyword-list" placeholder="e.g. Python, NLP" required>
+    <datalist id="keyword-list">
+      <option value="Python, TensorFlow, Flask">
+      <option value="AI, ML, Deep Learning">
+      <option value="HTML, CSS, JavaScript, Ajax">
+      <option value="React, Angular, Vue.js">
+      <option value="Node.js, Express, MongoDB">
+      <option value="Java, Spring Boot, Hibernate">
+      <option value="C++, C#, .NET">
+      <option value="SQL, PostgreSQL, MySQL">
+      <option value="AWS, Azure, Google Cloud">
+      <option value="DevOps, Docker, Kubernetes">
+    </datalist>
+
+    <!-- Location Input with Suggestions -->
+    <input name="location" list="location-list" placeholder="e.g. San Francisco">
+    <datalist id="location-list">
+      <option value="San Francisco, CA">
+      <option value="New York, NY">
+      <option value="Seattle, WA">
+      <option value="Austin, TX">
+      <option value="Los Angeles, CA">
+      <option value="Boston, MA">
+      <option value="Chicago, IL">
+      <option value="Denver, CO">
+      <option value="Atlanta, GA">
+      <option value="Remote">
+    </datalist>
+
     <button type="submit">Search</button>
   </form>
 

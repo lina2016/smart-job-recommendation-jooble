@@ -12,6 +12,14 @@ body {
   background-color: #fff;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
+.job-snippet {
+  white-space: normal;         /* Allows text to wrap */
+  word-wrap: break-word;       /* Breaks long words */
+  overflow-wrap: break-word;   /* Ensures wrapping in modern browsers */
+  overflow: hidden;            /* Prevents content from spilling out */
+  max-width: 100%;             /* Keeps it within the container */
+  box-sizing: border-box;      /* Includes padding/border in width */
+}
 .navbar{display:flex;gap:16px;align-items:center;padding:12px 20px;background:#111;color:#fff}
 .navbar a{color:#fff;text-decoration:none;margin-right:10px}
 .cards{list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px}

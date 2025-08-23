@@ -15,7 +15,7 @@
         <div class="score">Match: {{ job['score'] * 100 }}%</div>
         <h3>{{ job.title }}</h3>
         <p class="meta">{{ job.company }} — {{ job.location }} — {{ job.updated }}</p>
-        <p>{{ job.snippet }}</p>
+        <p class="job-snippet">{{ job.snippet }}</p>
         {% if job.source %}<p class="muted"><strong>Source:</strong> {{ job.source }}</p>{% endif %}
         <a href="{{ job.link }}" target="_blank" class="job-link-icon">
           🔗 View Job
