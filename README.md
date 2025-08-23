@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-# Real-time Job Matching with Jooble API
-=======
 # Real-time Job Matching with Jooble API 
->>>>>>> 37ed33f18c008ab9091405e55f9e1d0c3fbccdb3
 
 A Flask-based web app that fetches jobs from Jooble and recommends them based on user input.
 
